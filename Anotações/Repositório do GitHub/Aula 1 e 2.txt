@@ -1,0 +1,36 @@
+Criando seu Primeiro Repositório no GitHub para Compartilhar seu Progresso
+
+	"Alguém está sentado na sombra hoje porque alguém plantou uma árvore há muito tempo." Warren Buffet
+
+	Passo 1: Introdução
+	Passo 2: Git/GitHub: Relembrando algumas coisinhas
+	Passo 3: Desafio 
+	
+	Reforçar o conhecimento em git com um desafio
+	totalmente prático, onde você executa todos os passos para criação,
+	atualização e sincronização de um repositório no GitHub.
+	
+	Com isso, poder compartilhar suas anotações e exercícios em seu próprio
+	repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio.
+	
+	Requisitos 
+	
+	Noções básicas de Git/GitHub.
+	
+	Git Devidamente instalado (usaremos git bash).
+	
+	Engajamento e vontade de aprender.
+	
+Relembrando algumas coisinhas.
+
+	o Git bash é um terminal estendido para otimizar o uso do Git.
+
+	git add . = adiciona arquivo novo
+	git commit -m "Mensagem Coerente"
+	git push origin main = envia todos os commits atuais para nuvem
+	
+
+
+
+
+	

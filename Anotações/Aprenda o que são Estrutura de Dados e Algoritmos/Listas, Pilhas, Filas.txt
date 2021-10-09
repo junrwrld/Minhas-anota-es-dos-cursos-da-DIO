@@ -1,0 +1,76 @@
+O que são Listas?
+
+Listas
+
+São estruturas de Dados do tipo lista, armazena dados de um determinado tipo em uma ordem específica
+
+A diferença entre listas e arrays é que as listas são ajustavéis, enquanto arrays possuem tamanho fixo.
+
+Dois tipos de listas:
+
+Ligadas e Duplamente Ligadas.
+
+
+Lista ligada
+
+Nesta, existem os nó onde cada um de nós conhece o valor que está sendo armazenado em seu interior, além de conhecer o elemento posterior
+a ele: por isso é lista "ligada", pois nós são amarrados com essa indicação qual é o nó
+
+Duplamente Ligadas
+
+Constituem uma variação das listas ligadas
+
+a diferença entre elas, é que nas ligadas são bidirecionadas, não conseguimos "andar para trás" nas ligas
+
+nas duplamentes sabemos quem é o proximo elemento e quem é o elemento anterior.
+
+Conseguimos manipular na duplamente ligada
+
+----------------------------------------------------
+
+O que são pilhas?
+
+Uma pilha é uma estrutura de dados que coleciona elementos, permite acesso a apenas um item de dados armazenado.
+
+o acesso dos itens são restritos, somente um elemento pode ser lido ou removido um de cada vez.
+
+diferente de um vetor que conseguimos manipular dois itens ao mesmo tempo
+
+dois tipos de pilhas:
+
+LIFO OU UEPS
+FIFO OU PEPS
+
+
+LIFO (Last in First Out)) ou UEPS (Ultimo que entra primeiro que sai) o primeiro a ser retirado é o último que tiver sido inserido.
+
+Pilha também pode ser chamada de STACK.
+
+Conseguimos manipular APENAS um ITEM por VEZ.
+
+o Ultimo a ser Inserido será MANIPULADO ou REMOVIDO.
+
+FIFO (First in First Out) ou PEPS (Primeiro que entra Primeiro que sai), o primeiro elemento a ser retirado é o primeiro a ser INSERIDO.
+
+lembrando O PRIMEIRO a ser INSERIDO é o primeiro que SAI.
+
+
+-------------------------------------------------------
+
+O que são as Filas?
+
+a Fila admite a remoção e inserção de novos elementos
+
+o elemento removido é o que está na estrutura há mais tempo, o primeiro objeto inserido na fila é o primeiro a ser removido
+
+igual ao conceito do FIFO
+
+sempre removendo pelo COMEÇO de uma FILA
+
+Remove o que está a mais tempo
+Insere o mais novo
+
+
+
+
+

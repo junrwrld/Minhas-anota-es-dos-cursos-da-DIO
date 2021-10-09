@@ -1,0 +1,84 @@
+4 Tópicos
+
+SHA1
+Objetos Fundamentais
+Sistema distribuído
+Segurança
+
+---------------------
+
+SHA significa Secure Hash Algoritmo (Algoritmo de Hash Seguro)
+
+a encriptação gera conjunto de caracteres identificador de 40 dígitos
+
+É uma forma curta de representar um arquivo.
+
+echo "ola mundo" openss1 sha1
+ele vai nós dar um conjunto de 40 caracteres
+
+é uma forma muito inteligente do git para mostrar e identificar que o arquivo sofreu modificação
+
+-------------------
+
+BLOBS
+TREES
+COMMITS
+
+-------------------
+
+BLOBS
+
+echo: pega uma string e cuspe o output dessa string, e vamos passar o output pra uma função do GIT
+usando o hash-object
+
+--stdin = essa função espera receber um arquivo, estamos enviando um texto
+
+GIT lida com objetos e manipula eles através de Objetos chamados BLOBS, o objeto blob vai ter o tipo, tamanho da string ou arquivo uma "\0"
+e o conteudo de fato deste arquivo
+
+--------------------
+
+TREES:
+
+as TREES armazenam os blobs é uma crescente, blob sendo um bloco basico de composição e a tree armazenando e apontando para blobs diferentes.
+
+a tree também possui "\0" ela aponta para um blob com um SHA1 e a arvore guarda o nome do arquivo, vai ser responsável por montar
+a estrutura de todos arquivos, apontam tanto para os blobs arquivos ou outras árvores
+uma árvore pode apontar para outra árvore.
+
+as árvores também tem um SHA1 do meta dado, está encriptado
+
+uma COISA esta relacionada a OUTRA SEMPRE.
+
+se mudarmos alguma coisa dentro do arquivo, vamos mudar toda a estrutura do objeto, e consequentemente o SHA1 será alterado
+
+---------------------------------------
+
+
+COMMITS
+
+é o que vai juntar tudo, o commit aponta para uma árvore, aponta para um parente(ultimo commit adicionado), pra um autor ou mensagem também
+
+pode escrever uma mensagem no commit q da significado para estes objetos
+os commits também tem um timestamp é um carimbo de tempo
+
+ele mostra a data e hora quando foi criado e qual o seu autor
+
+os commits também possuem um SHA1 e criptação, que é a geração de 40 caracteres
+significa q se você alterar um dado dentro de uma blog
+ele vai gerar um SHA1
+que por sua vez tem uma árvore que também será alterada por ter alterado a blog
+e o commit aponta pra uma árvore que também aponta para várias outras árvores
+
+
+COMMIT>TREES>BLOBS
+
+você monta uma linha do tempo, é tudo interligado, um commit aponta pra uma árvore q dentro dela possa ter outra árvore ou ser direcionada até um BLOB
+uma vez que você altera um arquivo você altera todo o COMMIT também
+
+o GIT É um Sistema Distribuido Seguro.
+----------------------------------------------------------------------------------
+
+
+
+

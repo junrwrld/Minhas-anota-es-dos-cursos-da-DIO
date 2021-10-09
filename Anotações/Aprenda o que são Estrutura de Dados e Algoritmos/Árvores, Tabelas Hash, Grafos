@@ -1,0 +1,60 @@
+O que são as Árvores ?
+
+é uma estruturada organizada, onde os elementos são colocados de formas hierárquicas, onde existe um elemento no topo, chamado de raiz
+e existem elementos que são subordinados a ele, como as folhas ou de nós
+
+num vetor ele procura a passo a passo até chegar no elemento que você queira
+
+é uma forma de busca mais lenta, pois passa de posição por posição dentro de um VETOR
+
+não é sempre que colocamos um VETOR de forma CRESCENTE
+
+podemos dividir o vetor no meio e fazer com que busque no meio do VETOR
+
+então se dividirmos ele terá uma busca MAIS RÁPIDA.
+
+diferente de passar um por um.
+
+Numa lista ligada é IMPOSSIVÉL fazer isto.
+
+porque cada um deles é um VETOR
+
+para isso temos o formato ÁRVORE
+
+ele busca primeiro nas raizes, depois nas sub árvores e depois nas folhas até encontra o elemento que deseja.
+
+----------------------------------
+
+O que são tabelas HASH?
+
+é de dispersão ou espalhamento, também uma estrutura de dados, que associa pesquisa de valores
+
+tabela hash é uma generalização da idéia de array, porém utiliza uma função denominada hashing para espalhar os elementos 
+fazendo com que os mesmo não fiquem de forma não ordenada dentro do "array" que define tabela
+
+Porque espalhar?
+
+para asssociar valores as chaves
+
+os valores são as posições ou índices onde os elementos se encontram
+
+chave faz parte de informação que compõe o elemento a ser manipulado
+
+espalhar FACILITA a busca
+
+ele sabe exatamente qual é a chave do item que você deseja e te direciona até ele
+
+--------------------------------------
+
+
+O que é um grafo?
+
+estrutura que permite programar a relação entre objetos
+
+os objetos são vértices ou "nós" do grafo
+
+os relacionamentos são as arestas.
+
+parece um ciclo social.
+
+ 

@@ -1,0 +1,7 @@
+dir = pastas
+dir workspace = arquivo workspace (criado na aula)
+cd .. (sair do dir)
+cls (limpa o terminal)
+echo hello > hello.txt (cria arquivo de texto na pasta)
+del workspace (deleta arquivos dentro da pasta)
+rmdir workspace (deleta a pasta por completo.)

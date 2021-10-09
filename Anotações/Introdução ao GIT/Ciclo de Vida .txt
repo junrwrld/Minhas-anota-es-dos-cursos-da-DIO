@@ -1,0 +1,50 @@
+Ciclo de vida nos arquivos
+
+GIT INIT - Cria e se direciona a um tipo de repositório
+
+untracked são arquivos q o git não tem ciência dele
+tracked são arquivos q o git tem ciência dele
+
+modified é um arquivo que foi modificado
+unmodified que nao foi modificado
+
+staged
+backstage
+
+o que são repositórios? 
+
+o git é um sistema distribuido
+
+os arquivos vão ficar transitando entre working directory para a staging area
+
+quando você faz os arquivos entrar em cena você move os arquivos da área de staging para commit e então eles voltam para o unmodified
+e voltam para este ciclo
+
+então você popula o seu local repository
+tudo que estiver lá tem que estar "commitado"
+
+
+------------------
+
+GIT STATUS
+
+comando importante pois ele mostra o status dos arquivos
+
+mkdir "name" cria se uma pasta
+
+ls - lista os arquivos dentro do repositório
+
+mv strogonoff.md ./receitas/ : move o arquivo .md para a pasta receitas/
+
+------------------------
+
+git add nomeArquivo
+
+git add * adiciona todos os nossos arquivos dentro deste repositório para staged
+git add.
+
+git commit -m "msg" (pegamos todos os arquivos em staged e colocamos significados a eles, e criamos um commit )
+
+
+
+

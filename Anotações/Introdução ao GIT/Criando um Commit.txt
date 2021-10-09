@@ -1,0 +1,18 @@
+Criando um COMMIT
+
+Iniciar o GIT
+Iniciar o versionamento
+Criar um COMMIT
+
+
+git init
+git add
+git commit
+
+-a : mostra arquivos ocultos
+ls : lista as pastas
+ctrl + L : limpa o terminal
+git config --global : mostra vários comandos, talvez seja necessário.
+
+markdown é uma forma mais humana de entender o HTML
+

@@ -1,0 +1,6 @@
+Trabalhando com GitHub
+
+git config --list
+
+mostra meu user.nickname
+e meu email registrado no github
