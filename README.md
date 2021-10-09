@@ -1,2 +1,2 @@
-# Minhas-anota-es-dos-cursos-da-DIO
+# Minhas anotações do Curso da DIO
 Apenas anotações de algumas aulas
